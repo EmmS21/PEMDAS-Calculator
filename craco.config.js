@@ -11,12 +11,12 @@ module.exports = {
             "./Calculator": "./src/App",  
           },
           shared: {
-            react: { singleton: true, eager: true },
-            "react-dom": { singleton: true, eager: true },
+            react: { singleton: true, eager: false },
+            "react-dom": { singleton: true, eager: false },
+            "antd": { singleton: true, eager: false}
           },
         })
       );
-
       return webpackConfig;
     },
   },
