@@ -1,12 +1,12 @@
 import React from "react";
-import { Textfit } from "react-textfit";
 import "../assets/css/screen.css";
 
 const Screen = ({ value }) => {
+  const screenRef = React.useRef(null);
   return (
-    <Textfit data-testid="screen-id" className="screen" mode="single" max={70}>
+    <div ref={screenRef} data-testid="screen-id" className="screen">
       {value}
-    </Textfit>
+    </div>
   );
 };
 
