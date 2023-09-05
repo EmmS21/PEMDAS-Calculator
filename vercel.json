@@ -1,23 +1,30 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { 
-          "distDir": "build"        
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": { 
+                "distDir": "build"        
+            }
       }
-    }
-  ],
-  "routes": [
-    { 
-      "src": "/remoteEntry.js", 
-      "headers": {
-          "Access-Control-Allow-Origin": "http://localhost:3000",
-          "Content-Type": "application/javascript"
+    ],
+    "routes": [
+      { 
+        "src": "/remoteEntry.js", 
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "http://localhost:3000"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/javascript"
+          }
+        ],
+        "dest": "build/remoteEntry.js" 
       },
-      "dest": "build/remoteEntry.js" 
-    },
-    { "src": "/(.*)", "dest": "build/$1" }
-  ]
+      { "src": "/(.*)", "dest": "build/$1" }
+    ]
 }
+
