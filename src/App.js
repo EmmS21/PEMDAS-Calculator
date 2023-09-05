@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Frame from "./components/Frame";
 import Screen from "./components/Screen";
 import ButtonParent from "./components/ButtonParent";
 import Button from "./components/Button";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Switch } from 'antd';
 
 const buttonValues = [
