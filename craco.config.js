@@ -8,7 +8,7 @@ module.exports = {
           name: "calculator",
           filename: "remoteEntry.js",
           exposes: {
-            "./Calculator": "./src/App",  
+            "./Calculator": require.resolve("./src/App"),  
           },
           shared: {
             react: { 
