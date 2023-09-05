@@ -13,7 +13,7 @@
     { 
       "src": "/remoteEntry.js", 
       "headers": {
-          "Access-Control-Allow-Origin": "http://localhost:3000",
+          "Access-Control-Allow-Origin": "*",
           "Content-Type": "application/javascript"
       },
       "dest": "build/remoteEntry.js" 
