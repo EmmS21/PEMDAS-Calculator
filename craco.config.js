@@ -13,15 +13,12 @@ module.exports = {
           shared: {
             react: { 
               singleton: true,
-              eager: true
             },
             "react-dom": { 
-              singleton: true,
-              eager: true
+              singleton: true
             },
             "antd": {
-              singleton: true,
-              eager: true
+              singleton: true
             }
           },          
         })
