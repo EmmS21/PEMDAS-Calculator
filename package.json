@@ -21,7 +21,8 @@
     "build": "craco build",
     "test": "craco jest",
     "coverage": "jest --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "vercel-install": "npm install --legacy-peer-deps"
   },
   "eslintConfig": {
     "extends": [
