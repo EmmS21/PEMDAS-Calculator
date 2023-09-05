@@ -5,19 +5,27 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": { 
-              "distDir": "build"        
-          }
+        "distDir": "build"
+      }
+    },
+    {
+      "src": "./build/remoteEntry.js",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
     { 
       "src": "/remoteEntry.js", 
       "headers": {
-          "Access-Control-Allow-Origin": "*",
-          "Content-Type": "application/javascript"
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/javascript"
       },
-      "dest": "build/remoteEntry.js" 
+      "dest": "/build/remoteEntry.js",
+      "status": 200 
     },
-    { "src": "/(.*)", "dest": "build/$1" }
+    { 
+      "src": "/(.*)", 
+      "dest": "/build/$1" 
+    }
   ]
 }
