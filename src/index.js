@@ -1,4 +1,4 @@
-//delay
+//delayed
 import('./bootstrap');
 
 
