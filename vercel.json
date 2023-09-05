@@ -5,9 +5,8 @@
         "src": "package.json",
         "use": "@vercel/static-build",
         "config": { 
-                "distDir": "build", 
-                "installCommand": "npm run vercel-install" 
-        }
+                "distDir": "build"        
+            }
       }
     ],
     "routes": [
