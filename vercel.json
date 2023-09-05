@@ -12,9 +12,12 @@
     "routes": [
       { 
         "src": "/remoteEntry.js", 
-        "headers": {
-          "Access-Control-Allow-Origin": "*"
-        },
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "http://localhost:3000"
+          }
+        ],
         "dest": "build/remoteEntry.js" 
       },
       { "src": "/(.*)", "dest": "build/$1" }
