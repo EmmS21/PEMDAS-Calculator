@@ -15,10 +15,12 @@ This is a PEMDAS calculator built by Emmanuel Sibanda. To run this project, star
 
 ### Tests
 
-I wrote about 10 tests to assess whether the calculator correctly outputs calculations in the PEMDAS order and if the additional buttons I created work as intended. I hope these tests also help you better evaluate my calculator. 
+I wrote about 10 tests to assess whether the calculator correctly outputs calculations in the PEMDAS order and if the additional buttons I created work as intended. I hope these tests also help you better evaluate my calculator.
 
 Running `npm test` will run these tests
 
 ### Additional Notes
+
 You will need to press the "=" sign before any computation is carried out, with the exception of exponentials and percentage.
 
+added for deployment
