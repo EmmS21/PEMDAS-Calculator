@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/screen.css";
+//removed textfit
 
 const Screen = ({ value }) => {
   const screenRef = React.useRef(null);
