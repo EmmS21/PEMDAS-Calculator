@@ -1,4 +1,3 @@
-//delayed
 import('./bootstrap');
 
 
