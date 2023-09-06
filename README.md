@@ -11,7 +11,7 @@ This is a PEMDAS calculator built by Emmanuel Sibanda. To run this project, star
 - Once you have cloned the repo, open a terminal and navigate to the calculator folder
 - Once in the folder run the command, `npm install`
 - Now run `npm start`
-- Run `npm test` to run the tests I compiled
+- Run `npm test` to run the tests compiled
 
 ### Tests
 
