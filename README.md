@@ -22,3 +22,5 @@ Running `npm test` will run these tests
 ### Additional Notes
 
 You will need to press the "=" sign before any computation is carried out, with the exception of exponentials and percentage.
+
+Added for deployment
