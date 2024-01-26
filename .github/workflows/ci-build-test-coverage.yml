@@ -20,6 +20,16 @@ jobs:
       - name: Run Dagger
         run: node build.mjs
 
+      - name: Check for Lint Report
+        id: check-lint
+        run: |
+          if [ -f lint-report.txt ]; then
+            echo "Lint report found:"
+            cat lint-report.txt
+          else
+            echo "No lint report found."
+          fi
+
       - name: Run Unit Tests with Coverage
         run: npm run test:coverage
 

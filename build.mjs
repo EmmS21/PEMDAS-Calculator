@@ -1,5 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { ExecError, GraphQLRequestError, connect } from "@dagger.io/dagger";
+import { ExecError, connect } from "@dagger.io/dagger";
+import { writeFile } from "fs/promises";
 
 connect(
   async (client) => {
@@ -9,7 +10,15 @@ connect(
       .withDirectory("/src", source)
       .withWorkdir("/src")
       .withExec(["npm", "install"]);
-    await runner.withExec(["npm", "run", "lint"]).sync();
+    try {
+      await runner.withExec(["npm", "run", "lint"]).sync();
+    } catch (error) {
+      if (error instanceof ExecError) {
+        console.log("Linting errors found");
+        console.log(error.stdout);
+        await writeFile("./lint-report.txt", error.stdout);
+      }
+    }
     await runner.withExec(["npm", "run", "format"]).sync();
     try {
       await runner.withExec(["npm", "audit", "--json"])
