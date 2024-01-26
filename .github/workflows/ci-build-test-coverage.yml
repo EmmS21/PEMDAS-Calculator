@@ -1,0 +1,27 @@
+name: CI Build, Test and Coverage Check
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Dagger
+        run: node build.mjs
+
+      - name: Run Unit Tests with Coverage
+        run: npm run test:coverage
+
+      - name: Check Coverage Threshold
+        run: nyc check-coverage --branches 80

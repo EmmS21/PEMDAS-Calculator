@@ -4,7 +4,7 @@ import Screen from "./components/Screen";
 import ButtonParent from "./components/ButtonParent";
 import Button from "./components/Button";
 import React, { useState } from "react";
-import { Switch } from 'antd';
+// import { Switch } from 'antd';
 
 const buttonValues = [
   ["MC", "MR", "MS", "⌫"],
@@ -143,11 +143,11 @@ function App() {
   }
   return (
     <>
-      <Switch 
+      {/* <Switch 
         data-testid='switched'
         className='container'
         style={{zIndex: 1}}
-        defaultChecked onChange={colorChanger} />
+        defaultChecked onChange={colorChanger} /> */}
       <Frame>
         <Screen value={ num } />
         <ButtonParent>

@@ -3,6 +3,8 @@ const ModuleFederationPlugin = require("webpack").container.ModuleFederationPlug
 module.exports = {
   webpack: {
     configure: (webpackConfig, { env, paths }) => {
+      webpackConfig.target = 'web';
+      webpackConfig.devtool = 'source-map'; // Add this line  
       webpackConfig.plugins.push(
         new ModuleFederationPlugin({
           name: "calculator",
@@ -10,11 +12,14 @@ module.exports = {
           exposes: {
             "./Calculator": require.resolve("./src/App"),  
           },
-          shared: {
-            react: { 
-              singleton: true,
-            }
-          },          
+          // shared: {
+          //   "antd": { 
+          //     eager: true,
+          //     singleton: true,
+          //     requiredVersion: '^5.8.6',
+          //     import: 'async', 
+          //   },
+          // },          
         })
       );
       return webpackConfig;
