@@ -10,14 +10,18 @@ connect(
       .withDirectory("/src", source)
       .withWorkdir("/src")
       .withExec(["npm", "install"]);
+    let lintErrors = null;
     try {
       await runner.withExec(["npm", "run", "lint"]).sync();
     } catch (error) {
       if (error instanceof ExecError) {
         console.log("Linting errors found");
-        console.log(error.stdout);
+        lintErrors = error.stdout;
         await writeFile("./lint-report.txt", error.stdout);
       }
+    }
+    if (lintErrors) {
+      console.log("Proceeding with the build despite lint errors.");
     }
     await runner.withExec(["npm", "run", "format"]).sync();
     try {
