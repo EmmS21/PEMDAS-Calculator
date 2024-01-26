@@ -1,0 +1,522 @@
+[omitting 15747401 bytes]...                                                                                                               comma-spacing
+  1:1177  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:1177  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1186  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1198  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1208  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1210  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:1240  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1240  error    Missing semicolon                                                                                                                                                      semi
+  1:1241  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1242  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1242  error    Missing semicolon                                                                                                                                                      semi
+  1:1246  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1250  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1251  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1251  error    Expected parentheses around arrow function argument                                                                                                                    arrow-parens
+  1:1251  error    'e' is already declared in the upper scope on line 1 column 11                                                                                                         no-shadow
+  1:1254  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1254  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1255  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:1255  error    Expected literal to be on the right side of !==                                                                                                                        yoda
+  1:1266  error    Operator '!==' must be spaced                                                                                                                                          space-infix-ops
+  1:1282  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:1302  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:1327  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1346  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1347  error    A space is required after '{'                                                                                                                                          object-curly-spacing
+  1:1354  error    Missing space before value for key 'value'                                                                                                                             key-spacing
+  1:1362  error    A space is required before '}'                                                                                                                                         object-curly-spacing
+  1:1364  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:1364  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1388  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1401  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1402  error    A space is required after '{'                                                                                                                                          object-curly-spacing
+  1:1409  error    Missing space before value for key 'value'                                                                                                                             key-spacing
+  1:1411  error    A space is required before '}'                                                                                                                                         object-curly-spacing
+  1:1413  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1413  error    Missing semicolon                                                                                                                                                      semi
+  1:1414  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1418  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1422  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1425  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1428  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1428  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1429  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:1432  error    Expected literal to be on the right side of !==                                                                                                                        yoda
+  1:1443  error    Operator '!==' must be spaced                                                                                                                                          space-infix-ops
+  1:1462  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1462  error    Missing space before opening brace                                                                                                                                     space-before-blocks
+  1:1463  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:1463  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:1463  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1467  error    'e' is already declared in the upper scope on line 1 column 11                                                                                                         no-shadow
+  1:1468  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1469  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1469  error    Expected parentheses around arrow function argument                                                                                                                    arrow-parens
+  1:1469  error    'e' is already declared in the upper scope on line 1 column 1467                                                                                                       no-shadow
+  1:1472  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1487  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1489  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1490  error    Expected to return a value at the end of arrow function                                                                                                                consistent-return
+  1:1492  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1492  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1493  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:1493  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1498  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1512  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1513  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:1514  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1518  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:1520  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1521  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:1526  error    'e' is already declared in the upper scope on line 1 column 1469                                                                                                       no-shadow
+  1:1527  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1528  error    't' is already declared in the upper scope on line 1 column 1486                                                                                                       no-shadow
+  1:1529  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1530  error    Expected to return a value at the end of arrow function                                                                                                                consistent-return
+  1:1532  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1532  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1533  error    Expected space(s) after "for"                                                                                                                                          keyword-spacing
+  1:1537  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:1537  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1541  error    'r' is already declared in the upper scope on line 1 column 30                                                                                                         no-shadow
+  1:1542  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1580  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1581  error    'n' is already declared in the upper scope on line 1 column 1488                                                                                                       no-shadow
+  1:1582  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1584  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1586  error    Operator '<' must be spaced                                                                                                                                            space-infix-ops
+  1:1595  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1596  error    Unary operator '++' used                                                                                                                                               no-plusplus
+  1:1600  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1600  error    Missing space before opening brace                                                                                                                                     space-before-blocks
+  1:1601  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:1601  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1605  error    'o' is already declared in the upper scope on line 1 column 1497                                                                                                       no-shadow
+  1:1606  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1608  error    'i' was used before it was defined                                                                                                                                     no-use-before-define
+  1:1608  error    'i' declared on line 1 column 1788 is used outside of binding context                                                                                                  block-scoped-var
+  1:1609  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1641  error    Operator '||' must be spaced                                                                                                                                           space-infix-ops
+  1:1643  error    'i' was used before it was defined                                                                                                                                     no-use-before-define
+  1:1643  error    'i' declared on line 1 column 1788 is used outside of binding context                                                                                                  block-scoped-var
+  1:1665  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1666  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:1669  error    Expected literal to be on the right side of ===                                                                                                                        yoda
+  1:1681  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:1684  error    'i' was used before it was defined                                                                                                                                     no-use-before-define
+  1:1684  error    'i' declared on line 1 column 1788 is used outside of binding context                                                                                                  block-scoped-var
+  1:1689  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:1693  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:1697  error    Operator '||' must be spaced                                                                                                                                           space-infix-ops
+  1:1700  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:1706  error    Expected space(s) before "return"                                                                                                                                      keyword-spacing
+  1:1713  error    'i' was used before it was defined                                                                                                                                     no-use-before-define
+  1:1713  error    'i' declared on line 1 column 1788 is used outside of binding context                                                                                                  block-scoped-var
+  1:1714  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1714  error    Missing semicolon                                                                                                                                                      semi
+  1:1715  error    Expected space(s) before "var"                                                                                                                                         keyword-spacing
+  1:1715  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:1715  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1719  error    'a' is already declared in the upper scope on line 1 column 1513                                                                                                       no-shadow
+  1:1720  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1759  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1760  error    Expected space(s) after "for"                                                                                                                                          keyword-spacing
+  1:1764  error    'n' declared on line 1 column 1581 is used outside of binding context                                                                                                  block-scoped-var
+  1:1765  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1767  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1768  error    'n' declared on line 1 column 1581 is used outside of binding context                                                                                                  block-scoped-var
+  1:1769  error    Operator '<' must be spaced                                                                                                                                            space-infix-ops
+  1:1778  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1779  error    'n' declared on line 1 column 1581 is used outside of binding context                                                                                                  block-scoped-var
+  1:1779  error    Unary operator '++' used                                                                                                                                               no-plusplus
+  1:1783  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1783  error    Missing space before opening brace                                                                                                                                     space-before-blocks
+  1:1784  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:1784  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1789  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1790  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:1794  error    'o' declared on line 1 column 1605 is used outside of binding context                                                                                                  block-scoped-var
+  1:1794  error    Unexpected assignment within an 'if' statement                                                                                                                         no-cond-assign
+  1:1795  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1797  error    Unexpected assignment within an 'if' statement                                                                                                                         no-cond-assign
+  1:1798  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1801  error    'n' declared on line 1 column 1581 is used outside of binding context                                                                                                  block-scoped-var
+  1:1831  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:1835  error    Operator '||' must be spaced                                                                                                                                           space-infix-ops
+  1:1837  error    'o' declared on line 1 column 1605 is used outside of binding context                                                                                                  block-scoped-var
+  1:1838  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:1843  error    Expected space(s) before "return"                                                                                                                                      keyword-spacing
+  1:1851  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1851  error    Missing semicolon                                                                                                                                                      semi
+  1:1852  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:1856  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1860  error    Expected space(s) before "return"                                                                                                                                      keyword-spacing
+  1:1860  error    Return values from promise executor functions cannot be read                                                                                                           no-promise-executor-return
+  1:1870  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1873  error    'e' is already declared in the upper scope on line 1 column 1469                                                                                                       no-shadow
+  1:1874  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1875  error    't' is already declared in the upper scope on line 1 column 1486                                                                                                       no-shadow
+  1:1876  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1877  error    'r' is already declared in the upper scope on line 1 column 30                                                                                                         no-shadow
+  1:1878  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1879  error    'n' is already declared in the upper scope on line 1 column 1488                                                                                                       no-shadow
+  1:1880  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1881  error    'o' is already declared in the upper scope on line 1 column 1497                                                                                                       no-shadow
+  1:1882  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1885  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1885  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1886  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:1890  error    'a' is already declared in the upper scope on line 1 column 1513                                                                                                       no-shadow
+  1:1891  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1922  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:1923  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:1928  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1941  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:1941  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1948  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1959  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:1969  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1970  error    Unexpected chained assignment                                                                                                                                          no-multi-assign
+  1:1978  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1979  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:1979  error    Expected parentheses around arrow function argument                                                                                                                    arrow-parens
+  1:1979  error    'r' is already declared in the upper scope on line 1 column 1877                                                                                                       no-shadow
+  1:1982  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:1982  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:1983  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:1986  error    Unexpected assignment within an 'if' statement                                                                                                                         no-cond-assign
+  1:1995  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:1996  error    Unexpected assignment within an 'if' statement                                                                                                                         no-cond-assign
+  1:1996  error    Unexpected chained assignment                                                                                                                                          no-multi-assign
+  1:2004  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2009  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:2009  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2010  error    Expected literal to be on the right side of ===                                                                                                                        yoda
+  1:2016  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:2029  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2030  error    Expected space(s) after "else"                                                                                                                                         keyword-spacing
+  1:2034  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2035  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:2035  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:2035  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2040  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2042  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2045  error    Expected literal to be on the right side of ===                                                                                                                        yoda
+  1:2051  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:2060  error    Operator '?' must be spaced                                                                                                                                            space-infix-ops
+  1:2070  error    Operator ':' must be spaced                                                                                                                                            space-infix-ops
+  1:2078  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2079  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2080  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2082  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2092  error    Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                                                                           no-mixed-operators
+  1:2092  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2107  error    Operator '||' must be spaced                                                                                                                                           space-infix-ops
+  1:2107  error    Unexpected mix of '&&' and '||'. Use parentheses to clarify the intended order of operations                                                                           no-mixed-operators
+  1:2110  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2111  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2112  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2123  error    Unexpected string concatenation                                                                                                                                        prefer-template
+  1:2143  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2145  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2159  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2161  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2166  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2167  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:2173  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2197  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:2197  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2204  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2206  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2216  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2218  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2231  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2260  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2265  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2265  error    Missing semicolon                                                                                                                                                      semi
+  1:2266  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2267  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2274  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2276  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2278  error    Operator '?' must be spaced                                                                                                                                            space-infix-ops
+  1:2306  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2321  error    Operator ':' must be spaced                                                                                                                                            space-infix-ops
+  1:2350  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2350  error    Missing semicolon                                                                                                                                                      semi
+  1:2354  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2356  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2361  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2363  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2366  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2366  error    Missing semicolon                                                                                                                                                      semi
+  1:2369  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2370  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2370  error    't' is already declared in the upper scope on line 1 column 16                                                                                                         no-shadow
+  1:2371  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2372  error    A space is required after '{'                                                                                                                                          object-curly-spacing
+  1:2377  error    Missing space before value for key '179'                                                                                                                               key-spacing
+  1:2378  error    A space is required before '}'                                                                                                                                         object-curly-spacing
+  1:2379  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2391  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2393  error    'r' is already declared in the upper scope on line 1 column 30                                                                                                         no-shadow
+  1:2394  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2396  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2399  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2399  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2400  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:2404  error    Operator '?' must be spaced                                                                                                                                            space-infix-ops
+  1:2417  error    Operator ':' must be spaced                                                                                                                                            space-infix-ops
+  1:2418  error    Expected literal to be on the right side of !==                                                                                                                        yoda
+  1:2419  error    Operator '!==' must be spaced                                                                                                                                          space-infix-ops
+  1:2426  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2428  error    A space is required after '{'                                                                                                                                          object-curly-spacing
+  1:2432  error    Missing space before value for key '18'                                                                                                                                key-spacing
+  1:2433  error    A space is required before '}'                                                                                                                                         object-curly-spacing
+  1:2437  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2450  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2463  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2466  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2466  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2471  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2473  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2473  error    Missing semicolon                                                                                                                                                      semi
+  1:2475  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2477  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2477  error    Expected parentheses around arrow function argument                                                                                                                    arrow-parens
+  1:2477  error    'e' is already declared in the upper scope on line 1 column 1467                                                                                                       no-shadow
+  1:2480  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2480  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2498  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:2498  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2500  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2500  error    Missing semicolon                                                                                                                                                      semi
+  1:2504  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2504  error    Missing semicolon                                                                                                                                                      semi
+  1:2505  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2505  error    Missing semicolon                                                                                                                                                      semi
+  1:2506  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2510  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2513  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2516  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2516  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2517  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2521  error    'e' is already declared in the upper scope on line 1 column 11                                                                                                         no-shadow
+  1:2522  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2523  error    A space is required after '{'                                                                                                                                          object-curly-spacing
+  1:2528  error    Missing space before value for key '179'                                                                                                                               key-spacing
+  1:2529  error    A space is required before '}'                                                                                                                                         object-curly-spacing
+  1:2530  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2536  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2539  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2541  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2544  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2544  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2545  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2550  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2556  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2559  error    Operator '?' must be spaced                                                                                                                                            space-infix-ops
+  1:2564  error    Operator ':' must be spaced                                                                                                                                            space-infix-ops
+  1:2565  error    Expected 'undefined' and instead saw 'void'                                                                                                                            no-void
+  1:2571  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2572  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:2575  error    Expected literal to be on the right side of !==                                                                                                                        yoda
+  1:2576  error    Operator '!==' must be spaced                                                                                                                                          space-infix-ops
+  1:2581  error    Expected space(s) before "if"                                                                                                                                          keyword-spacing
+  1:2581  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:2598  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2599  error    Expected space(s) after "else"                                                                                                                                         keyword-spacing
+  1:2603  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2604  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:2604  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2609  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2623  error    Arrow function should not return assignment                                                                                                                            no-return-assign
+  1:2623  error    Arrow function should not return assignment                                                                                                                            no-return-assign
+  1:2624  error    'r' is already declared in the upper scope on line 1 column 30                                                                                                         no-shadow
+  1:2625  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2626  error    'n' is already declared in the upper scope on line 1 column 2540                                                                                                       no-shadow
+  1:2627  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2630  error    Return values from promise executor functions cannot be read                                                                                                           no-promise-executor-return
+  1:2630  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2631  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2632  error    Unexpected chained assignment                                                                                                                                          no-multi-assign
+  1:2636  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2639  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2644  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2656  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2659  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2660  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:2660  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:2660  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2665  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2669  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2676  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2677  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2678  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2679  error    Missing '()' invoking a constructor                                                                                                                                    new-parens
+  1:2688  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2694  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2696  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2696  error    Expected parentheses around arrow function argument                                                                                                                    arrow-parens
+  1:2696  error    'n' is already declared in the upper scope on line 1 column 2540                                                                                                       no-shadow
+  1:2699  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2699  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2700  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:2708  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2711  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2714  error    Expected literal to be on the right side of !==                                                                                                                        yoda
+  1:2715  error    Operator '!==' must be spaced                                                                                                                                          space-infix-ops
+  1:2719  error    Unexpected assignment within an 'if' statement                                                                                                                         no-cond-assign
+  1:2720  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2726  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2729  error    Unexpected assignment within an 'if' statement                                                                                                                         no-cond-assign
+  1:2733  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2734  error    Expected 'undefined' and instead saw 'void'                                                                                                                            no-void
+  1:2741  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2745  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2745  error    Missing space before opening brace                                                                                                                                     space-before-blocks
+  1:2746  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:2746  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:2746  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2750  error    'a' is already declared in the upper scope on line 1 column 2608                                                                                                       no-shadow
+  1:2751  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2753  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2756  error    Expected literal to be on the right side of ===                                                                                                                        yoda
+  1:2762  error    Operator '===' must be spaced                                                                                                                                          space-infix-ops
+  1:2771  error    Operator '?' must be spaced                                                                                                                                            space-infix-ops
+  1:2781  error    Operator ':' must be spaced                                                                                                                                            space-infix-ops
+  1:2789  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2790  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2790  error    'i' is already declared in the upper scope on line 1 column 2664                                                                                                       no-shadow
+  1:2791  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2793  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2803  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:2817  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2818  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:2827  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2828  error    Unexpected string concatenation                                                                                                                                        prefer-template
+  1:2844  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2846  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2860  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2862  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2867  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2869  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2873  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:2873  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2880  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2897  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2904  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2906  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2916  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2918  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2926  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2926  error    Missing semicolon                                                                                                                                                      semi
+  1:2927  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2929  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2930  error    Unexpected string concatenation                                                                                                                                        prefer-template
+  1:2938  error    Operator '+' must be spaced                                                                                                                                            space-infix-ops
+  1:2940  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2943  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2943  error    Missing semicolon                                                                                                                                                      semi
+  1:2944  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:2945  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2946  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:2946  error    All 'var' declarations must be at the top of the function scope                                                                                                        vars-on-top
+  1:2946  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2950  error    't' is already declared in the upper scope on line 1 column 16                                                                                                         no-shadow
+  1:2951  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2953  error    't' is already declared in the upper scope on line 1 column 2950                                                                                                       no-shadow
+  1:2954  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2956  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2959  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2959  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:2960  error    Split 'var' declarations into multiple statements                                                                                                                      one-var
+  1:2960  error    Unexpected var, use let or const instead                                                                                                                               no-var
+  1:2965  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2966  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2967  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2968  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2970  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2972  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2975  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2977  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:2978  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:2979  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:2981  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:2982  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:2993  error    Missing space before =>                                                                                                                                                arrow-spacing
+  1:2993  error    Expected parentheses around arrow function argument                                                                                                                    arrow-parens
+  1:2993  error    't' is already declared in the upper scope on line 1 column 2953                                                                                                       no-shadow
+  1:2996  error    Missing space after =>                                                                                                                                                 arrow-spacing
+  1:2996  error    Expected literal to be on the right side of !==                                                                                                                        yoda
+  1:2997  error    Operator '!==' must be spaced                                                                                                                                          space-infix-ops
+  1:3007  error    Requires a space after '{'                                                                                                                                             block-spacing
+  1:3007  error    Missing space before opening brace                                                                                                                                     space-before-blocks
+  1:3008  error    Expected space(s) after "for"                                                                                                                                          keyword-spacing
+  1:3008  error    for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array  no-restricted-syntax
+  1:3008  error    The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype                                                             guard-for-in
+  1:3019  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:3024  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3027  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:3036  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:3042  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:3043  error    Expected space(s) after "if"                                                                                                                                           keyword-spacing
+  1:3052  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:3052  error    Missing semicolon                                                                                                                                                      semi
+  1:3053  error    Expected space(s) before "for"                                                                                                                                         keyword-spacing
+  1:3053  error    Expected space(s) after "for"                                                                                                                                          keyword-spacing
+  1:3058  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:3064  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:3066  error    Operator '<' must be spaced                                                                                                                                            space-infix-ops
+  1:3075  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:3076  error    Unary operator '++' used                                                                                                                                               no-plusplus
+  1:3080  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:3081  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:3086  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:3086  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3092  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3095  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:3101  error    Operator '&&' must be spaced                                                                                                                                           space-infix-ops
+  1:3112  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3117  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:3119  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:3119  error    Missing semicolon                                                                                                                                                      semi
+  1:3120  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3121  error    Expected variable declaration to be on a new line                                                                                                                      one-var-declaration-per-line
+  1:3122  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:3123  error    Unexpected use of 'self'                                                                                                                                               no-restricted-globals
+  1:3123  error    Unexpected chained assignment                                                                                                                                          no-multi-assign
+  1:3150  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:3151  error    Unexpected use of 'self'                                                                                                                                               no-restricted-globals
+  1:3178  error    Operator '||' must be spaced                                                                                                                                           space-infix-ops
+  1:3182  error    Missing whitespace after semicolon                                                                                                                                     semi-spacing
+  1:3183  error    Expected an assignment or function call and instead saw an expression                                                                                                  no-unused-expressions
+  1:3204  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3208  error    Unexpected use of comma operator                                                                                                                                       no-sequences
+  1:3208  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3215  error    Operator '=' must be spaced                                                                                                                                            space-infix-ops
+  1:3227  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3243  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:3243  error    Missing semicolon                                                                                                                                                      semi
+  1:3247  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3269  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3293  error    A space is required after ','                                                                                                                                          comma-spacing
+  1:3298  error    Requires a space before '}'                                                                                                                                            block-spacing
+  1:3298  error    Missing semicolon                                                                                                                                                      semi
+  2:1     error    Expected exception block, space or tab after '//' in comment                                                                                                           spaced-comment
+  2:42    error    Newline required at end of file but not found                                                                                                                          eol-last
+
+/src/craco.config.js
+  9:34  warning  'env' is defined but never used    no-unused-vars
+  9:39  warning  'paths' is defined but never used  no-unused-vars
+
+/src/src/App.js
+   66:9  warning  Unexpected console statement                       no-console
+   68:9  warning  Unexpected console statement                       no-console
+   73:9  warning  Unexpected console statement                       no-console
+   99:5  warning  Unexpected console statement                       no-console
+  137:9  warning  'colorChanger' is assigned a value but never used  no-unused-vars
+
+✖ 78538 problems (77892 errors, 646 warnings)
+  60058 errors and 0 warnings potentially fixable with the `--fix` option.
