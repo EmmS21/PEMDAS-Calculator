@@ -35,11 +35,3 @@ jobs:
 
       - name: Check Coverage Threshold
         run: nyc check-coverage --branches 80
-
-      - name: Generate Combined Report
-        uses: Decathlon/create-report@v1
-        with:
-          report_paths: '["lint-report.txt", "coverage/coverage-summary.json"]'
-          report_name: "Test and Lint Report"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_if_empty: false
